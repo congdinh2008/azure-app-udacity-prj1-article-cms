@@ -7,3 +7,4 @@ __pycache__/*
 .vscode/*
 flask_session/*
 .deployment
+.DS_Store
