@@ -1,3 +1,9 @@
 /azure/
 azure.cfg
 congdinh2023prj1
+FlaskWebProject/__pycache__/*
+__pycache__/*
+.azure/*
+.vscode/*
+flask_session/*
+.deployment
