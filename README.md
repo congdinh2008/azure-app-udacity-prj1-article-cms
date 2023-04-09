@@ -66,3 +66,62 @@ All Python dependencies are stored in the requirements.txt file. To install them
     brew install unixodbc
     ```
 - Check [here](https://docs.microsoft.com/en-us/sql/connect/odbc/linux-mac/install-microsoft-odbc-driver-sql-server-macos?view=sql-server-ver15) to add SQL Server drivers for Mac.
+
+## How to install
+
+### Clone the project
+
+```
+git clone https://github.com/congdinh2008/azure-app-udacity-prj1-article-cms.git
+```
+
+### Install package
+
+Should be create a virtual environment (venv), activate it
+
+```
+$ python3 -m venv azure
+$ source azure/bin/activate
+```
+
+```
+$ pip install -r requirements.txt
+```
+
+Open how_to.ipynb: <a href="https://github.com/congdinh2008/azure-app-udacity-prj1-article-cms/blob/main/how_to.ipynb">NoteBook</a>
+
+Run code follow by markdown
+
+Using SQL Scripts: <a href="https://github.com/congdinh2008/azure-app-udacity-prj1-article-cms/tree/main/sql_scripts">SQL Scripts</a>
+
+Remember: Delete resource group after complete
+
+## Screenshots
+
+### Create Resource Group
+<img src="./screenshots/resource_group.png">
+
+### Config AAD
+<img src="./screenshots/aad_app_list.png">
+<img src="./screenshots/aad_app_authen.png">
+<img src="./screenshots/aad_app_credentials.png">
+
+### Azure SQL Database
+
+<img src="./screenshots/sql_database_users.png">
+<img src="./screenshots/sql_database_posts.png">
+
+### Images in Azure Blob Container
+<img src="./screenshots/images_upload_to_container_from_web.png">
+
+### Web UI Image
+
+#### Login page
+<img src="./screenshots/login_page.png">
+
+#### List Posts page
+<img src="./screenshots/list_posts.png">
+
+#### Edit Post page
+<img src="./screenshots/edit_post.png">
+
